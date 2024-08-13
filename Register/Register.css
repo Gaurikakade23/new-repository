@@ -1,0 +1,50 @@
+/* Global styles */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+/* Specific styles for each user type */
+
+.complex-form {
+  /* styles for complex form */
+}
+
+.company-form {
+  /* styles for company form */
+}
+
+.employee-form {
+  /* styles for employee form */
+}
+
+.tenant-form {
+  /* styles for tenant form */
+}

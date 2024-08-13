@@ -1,0 +1,63 @@
+/* Default styling for header and nav elements */
+header {
+  background-color:white; /* Example background color */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.navlogo {
+  max-width: 100%;
+  height: auto;
+}
+
+#hamburger-btn {
+  display: none; /* Hide by default */
+  cursor: pointer;
+  
+}
+.all-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.all-links li {
+  margin: 0 10px;
+}
+
+.all-links a {
+  text-decoration: none;
+  color: white; /* Or any color that contrasts well with your background */
+}
+
+input[type="checkbox"] {
+  display: none; /* Hide checkbox */
+}
+
+/* Styles for when menu is toggled */
+input[type="checkbox"]:checked + #hamburger-btn + .all-links {
+  display: block;
+}
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+  .all-links {
+    display: none; /* Hide menu links by default */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust based on your header height */
+    right: 0;
+    background-color: #333;
+    width: 100%;
+  }
+
+  #hamburger-btn {
+    display: block; /* Show menu button on small screens */
+  }
+}

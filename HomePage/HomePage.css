@@ -1,0 +1,79 @@
+/* HomePage.css */
+
+.hometable {
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    align-items: left;
+    justify-content: right;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    background-image: url('../Images/HomePageImageBg.jpg');/*Path to your background image*/
+     background-size: 850px 750px;/* Scale the image to cover the entire element*/
+    background-position: left top; /* Center the image */
+    background-repeat: no-repeat;
+  
+  }
+  
+  .hometable td {
+    padding: 0;
+    border: none;
+  }
+  
+  .homeimg {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  
+  .divhomeimg {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .imghomepage {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+  }
+  
+  imghomepage {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    height: 400px;
+    background-color: grey;
+    opacity: 90%;
+    border-radius: 10px;
+}
+  .content {
+    text-align: right center;
+  }
+  
+  .text h1 {
+    font-size: 2.5rem;
+    margin: 150px;
+    text-size-adjust: 10px;
+    color:#3f33e6;
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+   a {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 1rem;
+    color:grey;
+    background-color:#665cfA; /*Bootstrap primary color */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

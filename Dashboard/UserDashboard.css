@@ -1,0 +1,39 @@
+/* src/components/EmployeeDashboard.css */
+.employee-dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.employee-dashboard-table th, .employee-dashboard-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.employee-dashboard-table th {
+  background-color: #f4f4f4;
+}
+
+.employee-dashboard-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.employee-dashboard-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.book-slot-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.book-slot-btn:hover {
+  background-color: #0056b3;
+}

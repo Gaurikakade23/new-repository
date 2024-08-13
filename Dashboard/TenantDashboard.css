@@ -1,0 +1,40 @@
+/* src/components/TenantDashboard.css */
+.tenant-dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  min-width: 600px;
+}
+
+.tenant-dashboard-table th, .tenant-dashboard-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tenant-dashboard-table th {
+  background-color: #f4f4f4;
+}
+
+.tenant-dashboard-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tenant-dashboard-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tenant-dashboard-table button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tenant-dashboard-table button:hover {
+  background-color: #0056b3;
+}

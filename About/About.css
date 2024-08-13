@@ -1,0 +1,80 @@
+/* About.css */
+
+.about {
+    padding: 40px 20px;
+    background-color:white;
+  }
+  
+  .about h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  
+  .about p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  .about h3 {
+    text-align: center;
+    font-size: 1.8rem; /* Adjust font size */
+    font-weight: bold; /* Make the heading bold */
+    color: #333; /* Set a custom color */
+    margin: 20px 0; /* Adjust margin for spacing */
+    
+  }
+ .row company-info {
+    text-align: center;
+    
+
+ }
+  
+  .row.company-info, .What-We-Do {
+   
+    text-align: center;
+    font-size: 1.8rem; /* Adjust font size */
+    font-weight: bold; /* Make the heading bold */
+    color: #333; /* Set a custom color */
+    margin: 20px 0; 
+    
+  }
+  
+  .row.company-info h3, .What-We-Do h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color:black;
+    
+  }
+  
+  .row.company-info p, .What-We-Do p {
+    font-size: 1rem;
+    color: grey;
+    
+  }
+  
+  .What-We-Do p {
+    margin-top: 10px;
+     background: rgb(99, 57, 199);
+    color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .about p {
+      font-size: 1rem;
+    }
+  
+    .row.company-info h3, .What-We-Do h3 {
+      font-size: 1.5rem;
+      background: rgb(99, 57, 199);
+      color:white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  

@@ -1,0 +1,45 @@
+.slot-grid {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .slot-grid h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .slot-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .slot-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .slot-card.available {
+    background-color: #d4edda; /* Light green for available */
+    border-color: #c3e6cb; /* Green border for available */
+  }
+  
+  .slot-card.booked {
+    background-color: #f8d7da; /* Light red for booked */
+    border-color: #f5c6cb; /* Red border for booked */
+  }
+  
+  .slot-card h2 {
+    margin: 0;
+    color: #333;
+  }
+  

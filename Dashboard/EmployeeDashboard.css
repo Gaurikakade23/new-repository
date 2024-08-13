@@ -1,0 +1,27 @@
+.employee-dashboard {
+  padding: 20px;
+}
+
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+}
+
+.slot {
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slot.available {
+  background-color: #28a745;
+  color: white;
+}
+
+.slot.booked {
+  background-color: #dc3545;
+  color: white;
+  cursor: not-allowed;
+}

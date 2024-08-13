@@ -1,0 +1,39 @@
+.booking-details {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .booking-details h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .booking-details label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .booking-details input,
+  .booking-details select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .booking-details button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .booking-details button:hover {
+    background-color: #0056b3;
+  }
+  
